@@ -5,6 +5,10 @@ a {
 html{
   line-height: 1.5;
 
+.section a {
+  font-size: 17px;
+
+}
   @media only screen and (min-width: 0) {
     font-size: 14px;
   }
@@ -22,8 +26,10 @@ html{
   color: $off-black;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
+	font-weight: lighter;
 	line-height: 1.1;
+  opacity: .87;
+  letter-spacing: .01em;
 }
 
 // Header Styles

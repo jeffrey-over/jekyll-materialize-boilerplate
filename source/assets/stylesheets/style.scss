@@ -2,6 +2,10 @@
 # front matter
 ---
 
+// Custom Styles
+@import 'style';
+
+
 // Mixins
 @import "components/prefixer";
 @import "components/mixins";
@@ -39,5 +43,3 @@
 @import "components/date_picker/default.date.scss";
 @import "components/date_picker/default.time.scss";
 
-// Custom Styles
-@import 'style';

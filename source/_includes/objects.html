@@ -1,0 +1,8 @@
+{% for object in site.data.sections.[include.page] %}
+{% if object.type == "onecolumn" %}
+ {% include sections/onecolumn.html %}
+{% elsif object.type == "threecolumns" %}
+ {% include sections/threecolumns.html %}
+{% endif %}
+               
+{% endfor %}       

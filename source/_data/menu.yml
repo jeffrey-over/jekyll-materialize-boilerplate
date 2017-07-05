@@ -1,0 +1,17 @@
+navbar:
+  - type: link
+    text: Home
+    url: 
+  - type: link
+    text: Over ons
+    url: about  
+  - type: link
+    text: Nieuws
+    url: blog
+  - type: link
+    text: Contact
+    url: contact 
+  - type: button
+    text: Spoed
+    url: "#modal-spoed"
+     

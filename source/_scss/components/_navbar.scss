@@ -46,6 +46,12 @@ nav {
     font-size: $navbar-brand-font-size;
     padding: 0;
     white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .1rem;
+
+
+
 
     &.center {
       left: 50%;
@@ -74,15 +80,21 @@ nav {
       padding: 0;
 
       &:hover, &.active {
-        background-color: rgba(0,0,0,.1);
+  //      background-color: rgba(0,0,0,.1);
       }
     }
     a {
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: $navbar-font-color;
       display: block;
-      padding: 0 15px;
+      padding: 0 20px;
+      border-bottom: 2px solid transparent;
+      -webkit-transition: border .4s cubic-bezier(.55,0,.1,1);
+      /* transition: border .4s cubic-bezier(.55,0,.1,1); */
     }
+    .contains-link a:hover {
+      border-bottom: 2px solid #ffffff;
+  }
 
     &.left {
       float: left;
@@ -141,4 +153,39 @@ nav {
   .navbar-fixed {
     height: $navbar-height;
   }
+}
+
+
+// custom
+nav ul li.contains-btn:hover {
+  background-color: transparent;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+  padding: 3px;
+  font-weight: 300;
+}
+
+.change-on-scroll.scrolled {
+  background-color: #ffffff;
+  padding: 0;
+  transition: all 350ms ease 0s;
+  @extend .z-depth-1
+}
+
+.change-on-scroll.scrolled ul a, .change-on-scroll.scrolled a {
+    color: #424242;
+}
+.change-on-scroll.scrolled ul a.btn {
+    color: #ffffff !important;
+    @extend .light-blue;
+    @extend .lighten-2;
+}
+
+.side-nav .btn {
+  color: #ffffff;
+  
 }

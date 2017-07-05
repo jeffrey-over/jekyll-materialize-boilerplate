@@ -1,0 +1,34 @@
+<div class="section {{ object.background }}" style="padding-top: 4rem; padding-bottom: 4rem;">
+    <div class="container">
+        <div class="row {{ object.align }}"> 
+            {% if object.title %}
+            <div class="col m12"> 
+               <h4>{{ object.title }}</h4>
+            </div>
+            {% endif %}
+
+                <div class="col s12 m4">
+                    <div class="icon-block {{ object.background_1 }}">
+                        <div class="feature-icon"><i class="material-icons">{{ object.icon_1 }}</i></div>
+                        <p class="center"><b>{{ object.title_1 }}</b></p>                 
+                        <p class="light center">{{ object.text_1 }}</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block {{ object.background_2 }}">
+                        <div class="feature-icon"><i class="material-icons">{{ object.icon_2 }}</i></div>
+                        <p class="center"><b>{{ object.title_2 }}</b></p>     
+                        <p class="light center">{{ object.text_2 }}</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block {{ object.background_3 }}">
+                        <div class="feature-icon"><i class="material-icons">{{ object.icon_3 }}</i></div>
+                        <p class="center"><b>{{ object.title_3 }}</b></p>     
+                        <p class="light center">{{ object.text_3 }}</p>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</div>

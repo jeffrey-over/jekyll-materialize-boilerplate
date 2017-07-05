@@ -1,0 +1,26 @@
+index:
+  - type: onecolumn
+    align: left-align
+    title: Wij helpen u graag
+    text: Niet relevante zorgverlening kan erg vervelend zijn. Betalen voor zorg waar u geen gebruik van maakt helemaal. Daarom vinden wij dat zorg op maat moet zijn. Dit doen wij via een persoonlijk zorgplan. Wij helpen u hier graag mee.
+    url: about
+    cta: Ontdek onze visie
+  - type: threecolumns
+    background: grey lighten-4
+    background-cards: white
+    align: left-align
+    background_1: 
+    icon_1: accessibility
+    title_1: Balans
+    text_1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin odio ut rhoncus ornare. Aenean sed turpis libero.
+    background_2: 
+    icon_2: autorenew
+    title_2: Samen
+    text_2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin odio ut rhoncus ornare. Aenean sed turpis libero.
+    background_3:
+    icon_3: favorite_border
+    title_3: Betrokkenheid
+    text_3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin odio ut rhoncus ornare. Aenean sed turpis libero.
+
+    url: about
+    cta: Ontdek onze visie

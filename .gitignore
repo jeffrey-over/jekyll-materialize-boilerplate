@@ -1,3 +1,4 @@
 _site/
 .sass-cache/
 static
+node_modules

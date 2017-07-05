@@ -16,6 +16,15 @@ body {
   // flex-direction: column;
 }
 
+p {
+  opacity: .64;
+  line-height: 29px;
+  letter-spacing: .01em;
+  font-size: 17px;
+  font-weight: 300;
+  color: color("grey", "darken-2");
+}
+
 main {
   // flex: 1 0 auto;
 }
@@ -303,13 +312,34 @@ ul.staggered-list li {
 
 // Footer
 footer.page-footer {
-  margin-top: 20px;
+  margin-top: 0;
   padding-top: 20px;
   background-color: $footer-bg-color;
+  font-size: 14px;
+  @extend .light;
+
+
+
+  & h1, h2, h3, h4, h5 {
+    font-weight:300;
+    color: $footer-title-color;
+    @extend .light;
+    font-size: 14px;
+  }
+
+  & p {
+    font-size: 14px;    
+  }
+  & li a {
+    color: $footer-text-color;
+    font-size: 14px;
+    line-height: 28px;
+    @extend .light;
+  }
 
   .footer-copyright {
     overflow: hidden;
-    height: 50px;
+    //height: 50px;
     line-height: 50px;
     color: rgba(255,255,255,.8);
     background-color: rgba(51,51,51,.08);;

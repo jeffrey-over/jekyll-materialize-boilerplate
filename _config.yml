@@ -1,13 +1,13 @@
-title:              Company name goes here
+title:              Zorgperfect. Zorg op maat
 
 # Versioning
-current_version: 1.1.0
+current_version: 0.1.0
 
 author:
-  name:             Fernando Monteiro
-  email:            fernando@newaeonweb.com.br
-  github:           newaeonweb
-  twitter:          newaeonweb
+  name:             Jeffrey Overmeer
+  email:            jeffrey.overmeer@gmail.com
+  github:           jeffreyvoer
+  twitter:          
 
 # Dependencies
 markdown:           kramdown
@@ -20,7 +20,7 @@ permalink:          pretty
 source:             ./source
 destination:        ./static
 
-port:               9000
+port:               3000
 baseurl:            ""
 url:
 
@@ -31,12 +31,12 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 ## CUSTOM VARS
 
 #ga_id:             ##-########-###
-site_name:          Site name goes here
-site_description:   Simple company description.
+site_name:          Zorgperfect
+site_description:   Zorgperfect. Zorg op maat met een persoonlijk touch.
 site_copyright:     © All Rights Reserved.
-site_url:           http://www.newaeonweb.com.br
-site_email:         contato@domain.com.br
-site_phone:         (555) 555-1234
+site_url:           http://www.zorgperfect.nl
+site_email:         info@zorgperfect.nl
+site_phone:         06 - 835 479 36
 
 
 
