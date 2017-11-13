@@ -30,7 +30,7 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 
 ## CUSTOM VARS
 
-#ga_id:             ##-########-###
+ga_id:              UA-46280099-1
 site_name:          Zorgperfect
 site_description:   Zorg op maat met een persoonlijke touch.
 site_copyright:     © All Rights Reserved.
