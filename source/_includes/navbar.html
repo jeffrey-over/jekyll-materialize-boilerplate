@@ -1,10 +1,13 @@
 <div class="navbar-fixed">
-    <nav class="{% if include.transparant=="true" %}navbar-transparent{% endif %} change-on-scroll" role="navigation">
+    <nav class="{% if include.transparant=="true" %}navbar-transparent{% endif %} change-on-scroll " role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">zorgperfect | <span style="font-weight:300;">Thuiszorg</span></a>
             <ul class="right hide-on-med-and-down">
+
+               
+
                 {% for item in site.data.menu.navbar %}
                 {% if item.type == "link" %}
-                <li class="contains-link"><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
+                <li class="contains-link"><a href="{{ site.site_url }}/{{ item.url }}">{{ item.text }}</a></li>
                 {% endif %}
                 {% if item.type == "button" %}
                 <li class="contains-btn"><a class="btn waves-effect waves-light modal-trigger white black-text" href="{{ item.url }}">{{ item.text }}</a></li>
@@ -12,10 +15,12 @@
                 {% endfor %}       
             </ul>
 
+
+
             <ul id="nav-mobile" class="side-nav">
                 {% for item in site.data.menu.navbar %}
                 {% if item.type == "link" %}
-                <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
+                <li><a href="{{ site.site_url }}/{{ item.url }}">{{ item.text }}</a></li>
                 {% endif %}
                 {% if item.type == "button" %}
                 <li class="contains-btn"><a class="btn waves-effect waves-light modal-trigger light-blue lighten-2" href="{{ item.url }}">{{ item.text }}</a></li>

@@ -1,10 +1,10 @@
-<div class="section" style="padding-top: 4rem; padding-bottom: 4rem;">
-    <div class="container">
-        <div class="row {{ object.align }}"> 
-            <div class="col m12 animated" data-sr-id="3" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.5s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 0.5s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; transition: transform 0.5s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 0.5s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; "> 
+<div class="section" style="{% if page.path == "index.html" %}padding-top: 3rem; padding-bottom: 3rem;{% endif %}">
+    <div class="{% if page.path == "index.html" %}container{% endif %}">
+        <div class="row {{ object.align }} {{ object.color }}"> 
+            <div class="col m12"> 
                 {% if object.title %}<h4>{{ object.title }}</h4>{% endif %}
                 <p>{{ object.text }}</p>
-                {% if object.url %}<a href="{{ site.url }}/{{ object.url }}" class="waves-effect waves-light">{{ object.cta }}</a>{% endif %}
+                {% if object.url %}<a href="{{ site.site_url }}/{{ object.url }}" class="waves-effect waves-light">{{ object.cta }}</a>{% endif %}
             </div>
         </div>
     </div>

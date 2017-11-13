@@ -15,12 +15,13 @@
   margin: $element-top-margin 0 $element-bottom-margin 0;
   background-color: $card-bg-color;
   transition: box-shadow .25s;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   border-radius: 2px;
   @extend .z-depth-1;
 
 
   .card-title {
-    color: $card-bg-color;
+    color: $primary-color;
     font-size: 24px;
     font-weight: 300;
     &.activator {
@@ -166,3 +167,8 @@
     padding: 20px;
     border-radius: 0 0 2px 2px;
 }
+
+.card .card-content p {
+  margin: 17px 0;
+}
+

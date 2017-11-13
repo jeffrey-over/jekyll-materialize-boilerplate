@@ -1,0 +1,12 @@
+
+    <div class="{% if page.path == "index.html" %}container{% endif %}">
+            <div class="col m12">     
+                    <ul class="collection">
+                            <li class="collection-item avatar">
+                              <img src="{{ object.img }}" alt="" class="circle">
+                              <span class="title">{{ object.title }}</span>
+                              <p>{{ object.text }}</p>
+                            </li>
+                     </ul>
+            </div>
+    </div>

@@ -1,6 +1,6 @@
 index:
   - type: onecolumn
-    align: left-align
+    align: center-align
     title: Wij helpen u graag
     text: Niet relevante zorgverlening kan erg vervelend zijn. Betalen voor zorg waar u geen gebruik van maakt helemaal. Daarom vinden wij dat zorg op maat moet zijn. Dit doen wij via een persoonlijk zorgplan. Wij helpen u hier graag mee.
     url: about
@@ -12,15 +12,274 @@ index:
     background_1: 
     icon_1: accessibility
     title_1: Balans
-    text_1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin odio ut rhoncus ornare. Aenean sed turpis libero.
+    text_1: Wij vinden de juiste balans in uw zorg belangrijk. Met persoonlijk contact en passende oplossingen waarin u de regie heeft zorgen wij voor de juiste balans.
     background_2: 
     icon_2: autorenew
     title_2: Samen
-    text_2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin odio ut rhoncus ornare. Aenean sed turpis libero.
+    text_2: Wij vinden een warme relatie met onze klanten belangrijk. Door samen uw persoonlijke zorgplan te evalueren en bij te stellen denken wij uw zorgbehoefte te kunnen waarborgen.
     background_3:
     icon_3: favorite_border
     title_3: Betrokkenheid
-    text_3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin odio ut rhoncus ornare. Aenean sed turpis libero.
-
+    text_3: Met onze professionele zorg willen wij bijdragen aan het welzijn en welbevinden van onze klanten met aandacht voor ieders individuele levenswijze.
     url: about
     cta: Ontdek onze visie
+
+
+bedankt:
+  - type: onecolumn
+    background: grey lighten-5  
+    align: center-align
+    title: Bedankt!
+    text:  We hebben uw aanvraag ontvangen en nemen zo snel mogelijk contact met u op.
+
+about:
+  - type: onecolumn
+    align: center-align
+    title: 
+    text: Zorgperfect staat voor de “juiste balans in uw zorg” en een goede samenwerking met korte lijnen waarin u de regie heeft.
+    url: 
+    cta:              
+  - type: onecolumn
+    align: center-align
+    title: Ons team
+    text: Wij zijn toegewijd en willen samen mensen met een zorgvraag, de kans bieden om zolang mogelijk thuis te kunnen blijven wonen met de juiste zorg, afgestemd op de behoefte.
+    url: 
+    cta: 
+  - type: collection
+    img: https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-1/c50.50.621.621/s320x320/166226_111245882411050_2086920652_n.jpg?oh=70bebfa606642c4caa80aff4fce1f2f3&oe=5A72D1AD
+    title: Mia Detering
+    text: Managing Director    
+  - type: collection
+    img: https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-1/c0.0.303.303/1450277_10200997069344491_1009718044_n.jpg?oh=6059fe40e574637f3e09ad41d4af9995&oe=5A6B4BB0
+    title: Johan Detering  
+    text: Managing Director
+  - type: onecolumn
+    align: center-align
+    title: Zorgperfect in het kort
+    text: "Wij zijn een thuiszorgaanbieder binnen Almere, gestart op 1 december 2013. Wij leveren zorg op maat en zorgen met u voor een goede balans in uw zorg. Wij streven ernaar om zo min mogelijk verschillende medewerkers bij u in te zetten. Indien u dat wenst maken wij een combinatie van uw zorg en huishouding waardoor u overdag maar één medewerker in uw huis heeft. Mocht u zorg nodig hebben op niveau 3 (verzorgende) dan is deze combinatie in de meeste gevallen ook mogelijk. Alleen vanaf niveau 4 ( verpleegkundige) krijgt u een andere medewerker voor de huishouding."
+    url: 
+    cta:         
+  - type: onecolumn
+    align: center-align
+    title: Missie en visie
+    text: "Zorgperfect biedt aan haar klanten de mogelijkheid zelf de regie te blijven behouden over hun bestaan. Zorgperfect komt tegemoet aan de wensen en behoeften van haar klanten die zorg en ondersteuning nodig hebben, door zorg op maat te bieden. Dat doen wij door te zorgen voor een transparante en professionele organisatie met deskundige en betrokken medewerkers met een luisterend oor en hart voor hun vak."
+    url: 
+    cta:    
+  - type: onecolumn
+    align: center-align
+    title: 
+    text: "Zorgperfect wil met haar klanten een warme relatie opbouwen gebaseerd op wederzijds vertrouwen en vakmanschap. Dit doen wij door laagdrempelig contact te onderhouden met onze klanten.
+De klanten houden zelf de regie over hun bestaan door regelmatig met ons het zorgplan te evalueren en bij te stellen. Zorgperfect biedt professionele zorg die bijdraagt aan het welzijn en welbevinden van haar klanten met respect en aandacht voor ieders individuele levenswijze. Zorgperfect werkt met goed opgeleide en flexibele medewerkers die met passie betrokken zijn bij de organisatie en haar klanten. Daarnaast kunnen op verzoek van de klant, op basis van gelijkwaardigheid, vrijwilligers en mantelzorgers worden ingezet, die kunnen rekenen op professionele begeleiding en ondersteuning vanuit de organisatie."
+    url: informatie
+    cta:  Meer informatie           
+  - type: onecolumn
+    align: center-align
+    title: Bij ons werken?
+    text: Op het moment hebben wij een wachtlijst voor personeel. Omdat wij korte lijnen hebben en duidelijke afspraken en geen bureaucratie kan de zorg snel en efficiënt worden ingezet. Wij zijn nog net niet de wijkzuster op de "Solex" maar wel dé zuster die luistert naar uw wensen en daar ook de tijd voor neemt.
+    url: contact
+    cta: Neem contact op   
+
+
+
+informatie:
+  - type: onecolumn
+    align: left-align
+    title: Huishoudelijke verzorging
+    text: '
+Zorgperfect kan u hulp bieden bij het huishouden zoals hieronder opgesomd. Dit alles is natuurlijk afhankelijk welke indicatie u heeft gekregen.  <br />
+<ul class="collection">
+<li class="collection-item">stofzuigen, vegen, dweilen, stoffen en soppen</li>
+<li class="collection-item">ramen lappen, badkamer grote beurt</li>
+<li class="collection-item">wassen, strijken</li>
+<li class="collection-item">bereiden van de warme maaltijd</li>
+</ul>
+  <p>
+Dit zijn wat voorbeelden natuurlijk kijken we samen met u welke werkzaamheden wij van u zullen overnemen. Wat u zelf kan moet u ook zeker blijven doen!
+  </p>'
+    url: 
+    cta:              
+  - type: onecolumn
+    align: left-align
+    title: Persoonlijke verzorging
+    text: '
+Zorgperfect kan u hulp bieden bij alledaagse handelingen. Persoonlijke verzorging is gericht op het ondersteunen of overnemen van activiteiten op het gebied van de algemene dagelijkse levensverrichtingen (ADL) zoals:
+			<ul class="collection">
+				<li class="collection-item">douchen</li> 
+				<li class="collection-item">wassen</li> 
+				<li class="collection-item">aan- en uitkleden </li> 
+				<li class="collection-item">gebit verzorging</li> 
+				<li class="collection-item">steunkousen of zwachtelen</li> 
+				<li class="collection-item">aanbrengen van prothesen</li> 
+				<li class="collection-item">haren wassen</li> 
+				<li class="collection-item">scheren</li> 
+				<li class="collection-item">nagel verzorging</li> 
+				<li class="collection-item">hulp bij eten en drinken</li> 
+				<li class="collection-item">hulp bij het naar de toilet gaan</li> 
+				<li class="collection-item">aanreiken of geven van de medicatie</li> 
+				<li class="collection-item">aanbrengen van medicinale pleister</li> 
+				<li class="collection-item">toedienen oog-oor-of neusdruppels of ooggel</li> 
+				<li class="collection-item">toedienen van rectaal en vaginaal medicatie</li> 
+				<li class="collection-item">sondevoeding toedienen ( inclusief aan-en afkoppelen)</li> 
+				<li class="collection-item">sondevoeding via PEG</li> 
+				<li class="collection-item">stomaverzorging bij lokaal-intacte huid</li> 
+				<li class="collection-item">katheterzak legen/wisselen</li> 
+				<li class="collection-item">blaasspoelen via bestaande katheter</li> 
+				<li class="collection-item">uri-tip aanbrengen</li> 
+				<li class="collection-item">vernevelen</li> 
+			</ul>
+<p>
+Door deze hulp behoudt u het dagelijkse ritme en de regie. Waar mogelijk leren we u eenvoudige handelingen weer zelf te doen, met of zonder ondersteunende hulpmiddelen.
+</p>
+'
+    url: 
+    cta: 
+  - type: onecolumn
+    align: left-align
+    title: Persoonlijke verzorging speciaal
+    text: "Wij nemen dan de zorg geheel van u over, welke zorg dat is, is natuurlijk afhankelijk van uw gezondheidsprobleem en/of complexe zorgvraag. Bijvoorbeeld: ondersteuning met het omgaan van een ernstige ziekte, controle lichaamsfuncties, wondverzorging, vochthuishouding. Alle voorkomende zorg vanaf niveau 3."
+    url: 
+    cta:         
+  - type: onecolumn
+    align: left-align
+    title: Begeleiding
+    text: '
+    Ondersteuning bij de dingen van de dag waar de klant zelf niet geheel de regie over kan voeren.
+    
+		<ul class="collection">
+			<li class="collection-item">begeleiding of het geheel doen van de huishouding</li>
+			<li class="collection-item">begeleiding van de ADL zorg</li>
+			<li class="collection-item">begeleiding bij het aanbrengen van structuur van de dag</li> 
+			<li class="collection-item">begeleiding bij activiteiten binnenshuis en buitenshuis </li>
+			<li class="collection-item">ondersteuning, ontlasten van de partner  bij dementie </li>
+			<li class="collection-item">ondersteuning  in de gezinssituatie</li>
+			<li class="collection-item">ondersteuning van mantelzorgers en vrijwilligers</li>
+			<li class="collection-item">ondersteuning van de administratie</li>
+			<li class="collection-item">ondersteuning en begeleiding waar u behoefte aan heeft</li>
+		</ul>    
+    '
+    url: 
+    cta:    
+  - type: onecolumn
+    align: left-align
+    title: Verpleging
+    text: '
+		Technische handelingen die gedaan moeten worden vanaf niveau 4.
+		<ul class="collection">
+			<li class="collection-item">toedienen van vloeistoffen in de bloedbaan ( infuus)
+			<li class="collection-item">inbrengen en verwijderen van sondes, katheters en dergelijke
+			<li class="collection-item">niet oppervlakkige wondverzorging
+		</ul>
+    '
+    url: 
+    cta:            
+  - type: onecolumn
+    align: left-align
+    title: Palliatieve zorg
+    text: '
+		Palliatieve zorg is de zorg voor mensen waarvan vaststaat dat een behandeling  van de ziekte niet meer tot genezing zal leiden.
+		<ul class="collection">
+			<li class="collection-item"><b>Het doel van deze zorg is</b>: de kwaliteit van leven in de gaten te houden of te bespreken.</li>
+			<li class="collection-item"><B>Behandeling</b>: bestrijding van pijn, psychische en sociale problemen en aandacht voor de de thuissituatie en omgeving.</li>
+			<li class="collection-item"><b>Met wie</b>: familie, vrienden en of vrijwilligers. </li>
+			<li class="collection-item"><b>Eerstverantwoordelijke van de zorg</b>: behandelend arts, vaak de huisarts. Euthanasie kan besproken worden als vorm van palliatieve zorg.</li>
+		</ul>
+    '
+    url: 
+    cta: 
+  - type: onecolumn
+    align: left-align
+    title: Mantelzorgers en vrijwilligers
+    text: '
+		Vrijwilligerswerk en mantelzorg vormen samen de informele zorg.
+		<br /><br />
+		 Zorgperfect is een thuiszorgorganisatie die graag samen met u kijkt welke mogelijkheden er zijn om zolang mogelijk zelfstandig te kunnen blijven wonen. Wij kijken samen met u wat de behoeftes zijn en kunnen dan samen met u een netwerk van mantelzorgers en vrijwilligers creëren.
+		Deze mantelzorgers en vrijwilligers geven vaak goede ondersteuning aan de zorgvrager die dan langer zelfstandig kan blijven wonen.
+		<ul class="collection">
+			<li class="collection-item">Vrijwilligers/ Mantelzorgers vervullen taken die anders niet of nauwelijks gedaan kunnen worden door professionals.
+			Door de inzet van vrijwilligers kan er meer aandacht gegeven worden aan het welzijn van u.</li>
+			<li class="collection-item">Voor mantelzorgers kan het soms een te grote belasting zijn om voor hun partner, vriend, kennis of familielid te zorgen en dan kan een vrijwilliger hierbij goed ondersteunen.
+			Mantelzorg is vaak langdurig en intensief. Het ondersteunen van een mantelzorger is belangrijk om zo de  druk te verkleinen, het vergroten van draagkracht met als doel overbelasting van de mantelzorger te voorkomen.</li>
+			<li class="collection-item">Mantelzorg is een zorg die gegeven wordt van uit een sociale en emotionele binding tussen de zorgvrager en de partner, vriend, kennis en of familielid.
+			Vrijwilligerswerk is zorg die georganiseerd is  en zeker geen vrijblijvend karakter heeft. Klanten moeten ook kunnen rekenen op een vrijwilliger. " Afspraak is afspraak".</li>
+		</ul>
+		<p>Hoe gaan wij te werk:</p>
+		<ul class="collection">
+			<li class="collection-item">De eerstverantwoordelijke in uw zorg (EVVer) bespreekt samen met u wanneer u bepaalde zorgvragen heeft waarop wij als professionals niet kunnen en mogen ingaan, omdat dit bijvoorbeeld geheel buiten de indicatie valt, of wij dit kunnen vragen aan de mantelzorgers of een vrijwilliger.</li>
+			<li class="collection-item">Denk dan bijvoorbeeld aan het uitlaten van uw hond, ter ontspanning boodschappen doen, naar de markt gaan, wandelen, de tuin bijhouden, samen vissen of evt. begeleiden naar het ziekenhuis.</li>
+			<li class="collection-item">In overleg met u kijken wij wat u verwacht van een mantelzorger of vrijwilliger en wat en wanneer u iemand nodig heeft. Wij zullen dan de mogelijkheden voor u in kaart brengen en samen met u maken wij afspraken, met de door u gekozen vrijwilliger of mantelzorger, en leggen dat vast in het Zorgplan. De vrijwilliger dient bij het verrichten van de overeengekomen werkzaamheden de vereiste zorgvuldigheid in acht te nemen en in het algemeen te handelen zoals een goed vrijwilliger hoort te handelen. De vrijwilliger bespreekt ook alles met u en uw EVVer. Zelfstandige veranderingen in de vorm en frequentie is alleen mogelijk na overleg zodat het zorgplan kan worden aangepast. Zo weet een ieder wat men kan en mag verwachten van elkaar.
+			Indien u, uw contactpersoon of medewerkers klachten hebben over de inzet van de vrijwilliger zal er vanuit Zorgperfect contact worden gezocht met de vrijwilliger of diens coördinator.</li>
+			<li class="collection-item">Uiteraard heeft de vrijwilliger een geheimhoudingsplicht over alles zij/hij over de cliënten van Zorgperfect te weten is gekomen en waarvan de vrijwilliger het vertrouwelijke karakter kent of redelijkerwijs kan vermoeden. Deze geheimhoudingsplicht blijft ook na de beëindiging van inzet bij de klant bestaan.</li>
+		</ul>
+    '
+    url: 
+    cta:                
+  - type: onecolumn
+    align: left-align
+    title: Particuliere zorg
+    text: '
+	Wilt u particuliere zorg? Ook dan kunt u bij Zorgperfect terecht. U kunt zelf uw hulp inkopen. U bent de opdrachtgever van uw zorgverlener. 
+		<br /><Br />
+		Soms is het ook mogelijk tijdelijk zorg te krijgen vanuit uw ziektekostenverzekering. Denk aan huishoudelijke zorg na een ongeval. Enkele ziektekostenverzekeringen vergoeden dit gedurende 6 weken van 3 tot 9 uur per week</li>
+		<ul class="collection">
+			<li class="collection-item">huishoudelijke verzorging </li>
+			<li class="collection-item">persoonlijke verzorging</li>
+			<li class="collection-item">persoonlijke verzorging speciaal</li>
+			<li class="collection-item">begeleiding</li>
+			<li class="collection-item">palitatievezorg</li>
+			<li class="collection-item">verpleging</li>
+			<li class="collection-item">nachtzorg</li>
+			<li class="collection-item">24-uurszorg</li>
+			<li class="collection-item">terminale zorg</li>
+		</ul>
+		<p><b>Kosten</b>: De kosten zijn afhankelijk van uw zorgvraag en de kwalificaties van de zorgverlener. Om de zorg te bekostigen, kunt u een PGB-indicatie aanvragen of u kunt (extra) zorg inkopen uit eigen middelen. Als u een PGB AWBZ wilt aanvragen, maakt u een afspraak met het Centrum Indicatiestelling Zorg (CIZ) Voor een indicatie voor huishoudelijke hulp kunt u contact opnemen met het gemeentelijk zorgloket. Ook kan het zijn dat uw (zorg)verzekeraar de kosten vergoedt. 
+		Zo vinden we bij elke zorgvraag de best passende zorgverlener. Wanneer u dat wilt, zoeken we een zorgverlener voor u die meerdere zorgtaken kan uitvoeren. U kunt terecht voor zowel langdurige, als kortdurende zorg.
+    </p>'
+    url: 
+    cta:                
+  - type: onecolumn
+    align: left-align
+    title: Wat is een eigen bijdrage
+    text: '
+		Voor de meeste vormen van zorg betaalt u een eigen bijdrage, tenzij u de zorg uit eigen middelen betaalt. Het Centraal Administratie Kantoor (CAK) berekent de hoogte van de eigen bijdrage die afhankelijk is van uw inkomen. Het CAK berekent en incasseert deze eigen bijdragen. 
+		<br /><Br />
+		Meer weten? Bel gratis naar het CAK, 0800-1925. Of kijk op de website van het CAK <A href="http://www.hetcak.nl" target="_blank">www.hetcak.nl</a>.
+		<Br /><Br />
+		<h5>Indicatie via WMO</h5>
+		<p>Voor huishoudelijke  verzorging heeft u een indicatie nodig. Hiervoor neemt u contact op met de gemeente Almere tel: 14-036. Voor de WMO bepaalt de gemeente of u voor deze hulp en ondersteuning een eigen bijdrage moet betalen
+		</p>
+		<h5>Indicatie via CIZ</h5>
+		<p>Voor andere zorg dan huishoudelijke verzorging heeft u een indicatie nodig. Hiervoor neemt u contact op met het <a href="http://www.ciz.nl" target="_blank">Centrum Indicatiestelling Zorg (CIZ)</a>, tel: 088 789 14 40. 
+		</p>
+		<p>Wij regelen kosteloos uw zorg in natura  (ZIN) naar een persoonsgebonden budget (PGB). Voor meer informatie over de WMO en AWBZ kunt u bellen met Zorgperfect 06-83547936. </p>
+    '
+    url: 
+    cta:                
+  - type: onecolumn
+    align: left-align
+    title: Persoonsalarmering
+    text: '
+		<h5>Met één druk op de knop kunt u hulp vragen </h5>
+    <p>
+		U woont zelfstandig  en wilt dat zo lang mogelijk zo houden. Maar wat als u thuis valt of onwel wordt? De ATA levert al jaren binnen Almere persoonsalarmering. Zij hebben veel ervaring in het oplossen van zorgvragen in onverwachte situaties en bieden u snel en deskundig de juiste hulp. 
+		</p>
+		<h5>Hoe werkt het?</h5>
+    <p>
+		U krijgt een zender en een alarmkastje. De zender draagt u om uw hals, aan uw kleding of om uw pols. In geval van nood drukt u op de knop van de zender. U kunt 24 uur per dag, 7 dagen per week alarm slaan in noodgevallen. Een medewerker van de zorgmeldkamer reageert op uw melding en zet indien nodig zo snel mogelijk de juiste hulp in. 
+		Het is ook noodzakelijk dat uw huissleutel bij 2 contactpersonen aanwezig is. Dit kan familie, buren of een zorginstelling zijn.
+		Vaak is het handig om de sleutels bij een zorginstelling in de buurt te leggen. Deze zijn namelijk 7 dagen per week 24 uur per dag bereikbaar.
+		</p>
+		<h5>Kosten</h5>
+    <p>
+		U betaalt een maandelijkse bijdrage, deze is afhankelijk van het soort alarmering dat u kiest. Daarnaast betaalt u eenmalig aansluitkosten voor de zender en het alarmkastje. 
+		</p>
+		<h5>Vergoeding</h5>
+    <p>
+		Afhankelijk van hoe u verzekerd bent, betaalt uw zorgverzekeraar mogelijk een deel van de kosten. Informeer dus altijd even bij uw zorgverzekeraar.
+		</p>
+		<h5>Meer weten over Persoonsalarmering? </h5>
+    <p>
+		ATA kantoor James Wattstraat 71, 1097 DL Amsterdam 020 592 3131.<br />
+		Of neem contact op met Zorgperfect 06-83547936.
+    </p>'
+    url: 
+    cta:                

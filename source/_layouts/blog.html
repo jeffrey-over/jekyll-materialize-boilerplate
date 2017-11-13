@@ -1,28 +1,15 @@
 {% include header.html %}
 <main class="main blog">
-	<section class="img-header img-blog">
-		<div class="container">
-			<div class="text-heading animated bounceInRight">
-				<h1>Title</h1>
-			</div>
-		</div>
-	</section>
+
 	<section class="content">
 		<div class="container">
+
+							
+
+
 			<div class="row">
 				<div class="col-lg-12">
-					<article role="article" class="post">
-						<h1 class="post-title">{{ page.title }}</h1>
-						<p class="post-date">{{ page.date | date_to_string }} por {{ page.author }}</p>
-						{% include read_time.html %}
-						<div class="text-justify">
-							{{ content }}
-						</div>
-
-					</article>
-				</div>
-				<div class="col-lg-12">
-					<h1>Posts Relacionados</h1>
+					<h1>Gerelateerde nieuwsberichten</h1>
 					<ul class="post-list">
 						{% for post in site.posts %}
 						{% assign match = false %}
@@ -34,7 +21,7 @@
 						{% if match %}
 						<li class="col-md-6 col-lg-6">
 							<a href="{{ post.url}}">{{ post.title }}</a>
-							<p>{{ post.date | date_to_string }} por {{ page.author }}</p>
+							<p>{{ post.date }} por {{ page.author }}</p>
 						</li>
 						{% endif %}
 						{% endfor %}

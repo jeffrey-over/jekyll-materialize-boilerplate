@@ -7,7 +7,7 @@ navbar:
     url: about  
   - type: link
     text: Nieuws
-    url: blog
+    url: nieuws
   - type: link
     text: Contact
     url: contact 

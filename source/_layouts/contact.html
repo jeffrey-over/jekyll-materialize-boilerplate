@@ -1,0 +1,74 @@
+{% include header.html %}
+
+<div class="section no-pad-bot" id="banner" style="{% if page.background != null %}background-image:url({{ page.background }}) !important;{% endif %}">
+
+ </div>
+
+<div class="container ">
+        <div class="row">
+                <div class="">
+                  <div class=" card" style="margin-top:-60px;">
+                    <div class="card-content"> 
+                            
+                        <div class="col m8" style="margin-bottom:20px;">
+                                <h4>{{ page.form.title }}</h4>
+                                <p>{{ page.form.description }}</p>
+                                
+
+                                <form id="contactpageform" method="POST"  class="s12">
+                                        <input type="hidden" name="_next" value="{{ site.site_url }}/bedankt" />
+                                        <input type="hidden" name="_subject" value="Website contact" />
+                                        <div class="">
+                                                <div class="input-field col s6">
+                                                        <input class="validate" name="first_name" placeholder="Uw voornaam" type="text"><label for="first_name" class="active">Voornaam</label>
+                                                </div>
+                                                <div class="input-field col s6">
+                                                        <input class="validate" name="last_name" placeholder="Uw achternaam" type="text"><label for="last_name" class="active">Achternaam</label>
+                                                </div>
+                                        </div>
+                                        <div class="">
+                                                <div class="input-field col s12">
+                                                        <input class="validate" name="email" placeholder="Uw email" type="email"><label for="email" class="active">Email</label>
+                                                </div>
+                                        </div>
+                                        <div class="">
+                                                <div class="input-field col s12">
+                                                        <label for="" class="active">Bericht:</label>
+                                                        <textarea class="validate" name="message" placeholder="Uw bericht" ></textarea>
+                                                 </div>
+                                        </div>     
+                                        <div class="">
+                                                <div class="input-field col s12">
+                                                        <button class="btn btn-large btn-flat light-blue lighten-2 waves-effect waves-light" name="action" type="submit">Verzenden <i class="material-icons right">send</i></button>
+                                                </div>
+                                        </div>       
+
+                                </form>
+ 
+                                <script>
+                                        var contactform =  document.getElementById('contactpageform');
+                                        contactform.setAttribute('action', '//formspree.io/' + 'jeffrey.overmeer' + '@' + 'gmail' + '.' + 'com');
+                                </script>                                
+                        </div>
+                                                
+                        <div class="col m4">
+                                <h5 style="margin: 1.14rem 0 .912rem 0">{{ page.sidebar-title1 }}</h5>
+                                <p>
+                                        {{ page.sidebar-content1 }}
+                                </p>
+
+                                <h5 class="">{{ page.sidebar-title2 }}</h5>
+                                <p>
+                                        {{ page.sidebar-content2 }}
+                                </p>                                
+                        </div>
+                        
+
+                    </div>
+                  </div>
+                </div>
+        </div>
+</div>        
+
+
+{% include footer.html %}

@@ -16,6 +16,44 @@
        url(../font/material-design-icons/MaterialIcons-Regular.ttf) format('truetype');
 }
 
+	
+.fading { 
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -48,8 +86,9 @@
 }
 
 // jumbo
+
 #index-banner {
-  background-image: url(http://localhost:3000/assets/images/header.jpg);
+  background-image: url(/assets/images/header.jpg);
   background-position: center center;
  // background-size: cover;
   //background: radial-gradient(farthest-corner at -29% 10%, #29b6f6, #81d4fa);
@@ -60,10 +99,10 @@
 
 #index-banner::after {
   //background: radial-gradient(farthest-corner at -29% 10%, #29b6f6, #81d4fa);
-    //background: -webkit-linear-gradient(135deg,rgba(41,182,246,.88) 0,rgba(129,212,250,.31) 100%);
-    background: rgba(41,182,246,0.88);
-    //background: linear-gradient(45deg, rgba(129,212,250,.88) 0, rgba(41,182,246,.9)  100%);
-    //background: -moz-linear-gradient(135deg,rgba(41,182,246,.88) 0,rgba(129,212,250,.31) 100%);
+    background: -webkit-linear-gradient(135deg,rgba(41,182,246,0.61) 0,rgba(129,212,250,1) 100%);
+    background: rgba(41,182,246,0.78);
+    background: linear-gradient(45deg, rgba(129,212,250,0.61) 0, rgba(41,182,246,1)  100%);
+    background: -moz-linear-gradient(135deg,rgba(41,182,246,10.61) 0,rgba(129,212,250,1) 100%);
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -76,7 +115,41 @@
 
 }
 
+#banner {
+    background-image: url(/assets/images/header.jpg);
+    background-position: center center;
+   // background-size: cover;
+    //background: radial-gradient(farthest-corner at -29% 10%, #29b6f6, #81d4fa);
+    margin-top: -70px;
+    padding-top: 70px;
+    height: 250px;
+  }
+  
+  #banner::after {
+    //background: radial-gradient(farthest-corner at -29% 10%, #29b6f6, #81d4fa);
+      background: -webkit-linear-gradient(135deg,rgba(41,182,246,0.61) 0,rgba(129,212,250,1) 100%);
+      background: rgba(41,182,246,0.78);
+      background: linear-gradient(45deg, rgba(129,212,250,0.61) 0, rgba(41,182,246,1)  100%);
+      background: -moz-linear-gradient(135deg,rgba(41,182,246,10.61) 0,rgba(129,212,250,1) 100%);
+
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      display: block;
+      left: 0;
+      top: 0;
+      content: "";
+      height: 250px;
+      margin-top: -70px;
+  
+  }
+
 #row-banner {
   z-index: 3;
   position: relative;
+}
+
+.card-content .section .container {
+    padding: 0 !important;
+    margin: 0 !important;
 }

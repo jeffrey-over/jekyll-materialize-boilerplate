@@ -32,11 +32,17 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 
 #ga_id:             ##-########-###
 site_name:          Zorgperfect
-site_description:   Zorgperfect. Zorg op maat met een persoonlijk touch.
+site_description:   Zorg op maat met een persoonlijke touch.
 site_copyright:     © All Rights Reserved.
-site_url:           http://www.zorgperfect.nl
+# site_url:           http://www.zorgperfect.nl
+
+#local:
+#site_url:           ""
+
+# online:
+site_url:           ""
 site_email:         info@zorgperfect.nl
-site_phone:         06 - 835 479 36
+site_phone:         06 83 54 79 36
 
 
 

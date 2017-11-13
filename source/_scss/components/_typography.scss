@@ -26,7 +26,8 @@ html{
   color: $off-black;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight: lighter;
+  font-weight: lighter;
+  color: color("grey", "darken-2");
 	line-height: 1.1;
   opacity: .87;
   letter-spacing: .01em;

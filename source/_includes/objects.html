@@ -3,6 +3,8 @@
  {% include sections/onecolumn.html %}
 {% elsif object.type == "threecolumns" %}
  {% include sections/threecolumns.html %}
+{% elsif object.type == "collection" %}
+ {% include sections/collection.html %} 
 {% endif %}
                
 {% endfor %}       

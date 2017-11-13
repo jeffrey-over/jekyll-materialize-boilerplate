@@ -8,19 +8,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.title %}{{ page.title }} &#8211; {% endif %} {{ site.title }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"> {% if page.tags %}
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.site_description }}{% endif %}"> {% if page.tags %}
     <meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}" />
-    <meta name="copyright" content="{{ site.copyright }}" />
+    <meta name="copyright" content="{{ site.site_copyright }}" />
     <!-- 404 Redirect -->
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/"> {% endif %}
     <!-- /404 Redirect -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
-    <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/style.css" media="screen,projection" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.site_name }}" href="/feed.xml">
+    <link rel="stylesheet" href="/assets/stylesheets/style.css" media="screen,projection" />
     <link rel="canonical" href="{{ page.url }}" />
-    <script src="{{ site.url }}/assets/javascripts/modernizr-2.8.3-min.js"></script>
-    <link href="{{ site.url }}/assets/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <script src="/assets/javascripts/modernizr-2.8.3-min.js"></script>
+    <link href="/assets/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="">
@@ -28,7 +28,15 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color:#f5f5f5;">
 
     {% include navbar.html transparant="true" %} 
-    {% include components/modal.html title="Spoed" content="Bel voor calamiteiten altijd 112." %}
+    {% include components/modal.html 
+        title="Spoed" 
+        content="
+        Bel voor calamiteiten altijd 112.    
+         <p><strong>In geval van nood</strong><br />
+        06-50622899<br />
+        036-5212476</p> 
+        " 
+    %}

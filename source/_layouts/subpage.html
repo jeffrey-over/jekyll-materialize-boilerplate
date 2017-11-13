@@ -1,0 +1,20 @@
+{% include header.html %}
+
+<div class="section no-pad-bot" id="banner" style="{% if page.background != null %}background-image:url({{ page.background }}) !important;{% endif %}">
+
+ </div>
+
+<div class="container ">
+        <div class="row">
+                <div class="">
+                  <div class=" card" style="margin-top:-60px;">
+                    <div class="card-content">                        
+                            {{ content }}
+                    </div>
+                  </div>
+                </div>
+        </div>
+</div>        
+
+
+{% include footer.html %}

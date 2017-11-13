@@ -1,35 +1,39 @@
+
 <footer class="page-footer">
     <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5>Settings</h5>
-                <ul>
-                    <li><a class="" href="#!">Link 1</a></li>
-                    <li><a class="" href="#!">Link 2</a></li>
-                    <li><a class="" href="#!">Link 3</a></li>
-                    <li><a class="" href="#!">Link 4</a></li>
-                </ul>
-            </div>
-            <div class="col l6 s12">
-                <h5>Connect</h5>
-                <ul>
-                    <li><a class="" href="#!">Link 1</a></li>
-                    <li><a class="" href="#!">Link 2</a></li>
-                    <li><a class="" href="#!">Link 3</a></li>
-                    <li><a class="" href="#!">Link 4</a></li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact</h5>
+          <p class="grey-text">{{ site.site_url }}{{ site.site_phone }}<br /><a href="mailto:{{ site.site_email }}" style="font-size:14px;" class="grey-text">{{ site.site_email }}</a></p>
         </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container grey-text">
+
+
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+
+          <ul>
+          {% for item in site.data.menu.navbar %}
+          {% if item.type == "link" %}
+          <li class=""><a href="{{ site.site_url }}/{{ item.url }}" class="grey-text">{{ item.text }}</a></li>
+          {% endif %}              
+          {% endfor %}  
+          </ul>          
 
         </div>
+      </div>
     </div>
-</footer>
+    <div class="footer-copyright">
+      <div class="container">
+        {{ site.site_copyright }} {{ site.site_name }}. {{ site.site_description }}
+      <!--<a class="grey-text text-lighten-4 right" href="#!">Ontwikkeld door {{ site.author.name }}</a>-->
+      </div>
+    </div>
+  </footer>
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="{{ site.url }}/assets/javascripts/materialize/bin/materialize.min.js"></script>
-<script src="{{ site.url }}/assets/javascripts/scripts.js"></script>
+<script src="/assets/javascripts/materialize/bin/materialize.min.js"></script>
+<script src="/assets/javascripts/scripts.js"></script>
 
 </body>
 </html>

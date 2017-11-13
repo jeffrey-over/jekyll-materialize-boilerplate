@@ -176,10 +176,20 @@ nav ul li.contains-btn:hover {
   @extend .z-depth-1
 }
 
-.change-on-scroll.scrolled ul a, .change-on-scroll.scrolled a {
+.white-menu {
+  background-color: #ffffff;
+  padding: 0;
+  transition: all 350ms ease 0s;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28) !important;
+  @extend .z-depth-1
+  
+
+}
+
+.change-on-scroll.scrolled ul a, .change-on-scroll.scrolled a, .white-menu ul a, .white-menu a {
     color: #424242;
 }
-.change-on-scroll.scrolled ul a.btn {
+.change-on-scroll.scrolled ul a.btn, .white-menu ul a.btn {
     color: #ffffff !important;
     @extend .light-blue;
     @extend .lighten-2;
