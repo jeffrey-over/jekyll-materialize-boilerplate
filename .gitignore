@@ -1,6 +1,5 @@
 _site/
 .sass-cache/
-source/
 _config.yml
 static
 node_modules
